@@ -14,20 +14,23 @@
 <body>
     <div class="container">
         <div class="info">
-            <div class="info-text">
-                <h1>Я Левит Дмитрий</h1>
-                <p><img class="avatar" src="img/avatar.jpg" alt="Это я"></p>
+            <div class="box">
+                <img class="avatar" src="img/avatar.jpg" alt="Это я"></p>
 
-                <p>
-                    Я люблю <strong>путешествовать</strong>!.
-                </p>
-                <p>Программирование мое <em>Хобби</em>.</p>
+
+            </div>
+            <div class="info-text box-2">
+                <h1>Я Левит Дмитрий</h1>
+                <p>Я люблю путешествовать!</p>
+                <p>А программирование - мое Хобби.</p>
             </div>
             <div class="card">
                 <h2>Список социальных сетей:</h2>
             </div>
             <div class="cardBig bg-red">
                 <a class="link" href="https://t.me/Blackshadow_rus" target="_blank">Telegramm</a>
+                <a class="link" href="#" target="_blank">Instagramm</a>
+                <a class="link" href="#" target="_blank">Youtube</a>
             </div>
 
         </div>
@@ -36,13 +39,13 @@
             <h2>Мое Хобби</h2>
         </div>
         <div class="cardBig bg-yellow">
-            <ol>
+            <ul class="lists">
                 <li>Футбол</li>
                 <li>Кайтинг</li>
                 <li>Яхтинг</li>
                 <li>Деревообработка</li>
                 <li>Горный лыжи</li>
-            </ol>
+            </ul>
         </div>
 
         <div class="card">
@@ -84,7 +87,7 @@
         <div class="card">
             <h2>Связаться со мной</h2>
         </div>
-        <div class="cardBig bg-red">
+        <div class="cardBig bg-red form-row">
             <div class="col-1">
                 <div>
                     <label class="label" for="name">Ваше имя:</label>
@@ -103,10 +106,11 @@
             <div class="col-2">
                 <textarea class="input" name="" id="message" cols="31" rows="5"
                     placeholder="Текст Вашего сообщения..."></textarea>
-                <div>
-                    <button class="btn" type="submit">Отправить!</button>
-                </div>
+
             </div>
+        </div>
+        <div>
+            <button class="btn" type="submit">Отправить!</button>
         </div>
         <hr>
     </div>
